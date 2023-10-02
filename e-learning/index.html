@@ -1,209 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>TECH WORLD</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
-        <link href="img/favicon.ico" rel="icon">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300|Nunito:400,700&display=swap" rel="stylesheet">
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
-        <link href="vendor/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="vendor/lightbox/css/lightbox.min.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-
-    <body>
-       <header class="header">
-            <div class="container-fluid">
-                <div class="logo pull-left">
-                    <h1><a href="index.html">TECH WORLD</a></h1>
-                </div>
-
-                <nav id="nav-menu-container">
-                    <ul class="nav-menu">
-                        <li class="menu-active"><a href="index.html">Home</a></li>
-                        <li><a href="service.html">Services</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        
-        <section class="slider">
-            <div class="slider-container">
-                <div id="carousel" class="carousel  slide carousel-fade" data-ride="carousel">
-
-                    <ol class="carousel-indicators"></ol>
-
-                    <div class="carousel-inner" role="listbox">
-
-                        <div class="carousel-item active">
-                            <div class="carousel-background"><img src="img/image1.jpg" alt=""></div>
-                            <div class="carousel-container">
-                                <div class="carousel-content">
-                                    <h2>Web Development</h2>
-                                    <p>
-                                        Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet
-                                    </p>
-                                    <a href="service.html" class="btn-get-started">Get Started</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item">
-                            <div class="carousel-background"><img src="img/image2.jpg" alt=""></div>
-                            <div class="carousel-container">
-                                <div class="carousel-content">
-                                    <h2>App Development</h2>
-                                    <p>
-                                        Mobile app development is the act or process by which a mobile app is developed for mobile devices, such as personal digital assistants, enterprise digital assistants or mobile phones. These software applications are designed to run on mobile devices, such as a smartphone or tablet computer. These applications can be pre-installed on phones during manufacturing platforms, or delivered as web applications using server-side or client-side processing                       </p>
-                                    <a href="service.html" class="btn-get-started">Get Started</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon ion-md-arrow-back" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-
-                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon ion-md-arrow-forward" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-
-                </div>
-            </div>
-        </section>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>Knowledge-world</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
     
-        <section class="about">
-            <div class="container">
-                <header class="section-header">
-                    <h3>About Us</h3>
-                    <p>
-                        Tech World is a custom web &  app development agency based out in India. We have a team of skilled professionals with 290+ collective years of experience in custom UX/UI design and web app development Solutions.
-
-We can convert your ideas into reality. We create cost-effective, award-winning solutions for our clients to grab digital space & create new business opportunities.                    </p>
-                </header>
-
-                <div class="row about-cols">
-                    <div class="col-md-4">
-                        <div class="about-col">
-                            <h2 class="title"><a href="#">Our Mission</a></h2>
-                            <p>
-                                We are working to transform businesses digitally to leverage the power of digital space. Our focus is to provide quality solutions to every business that has chosen us. We believe in providing IT and software development solutions at an affordable price with one hundred percent transparency, commitment and mutual trust.                            </p>
-                            <div class="read-more">
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="about-col">
-                            <h2 class="title"><a href="#">Our Vision</a></h2>
-                            <p>
-                                Our vision is to explore every dimension of the digital world, gain knowledge and use it to help businesses to achieve long-term success creatively and quickly. Our research and development team is constantly working on how we can evolve such web design and development solutions to grow together with time and growth
-                                                 </p>
-                            <div class="read-more">
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="about-col">
-                            <h2 class="title"><a href="#">Our Objective</a></h2>
-                            <p>
-
-                                Tech world is based in India and provides web design and development services worldwide. We thrive digital representation of businesses through our intuitive, user-friendly, and modern website design and development services.  websites that meet your company's goals and make you 100% satisfied with our work.                            </p>
-                            <div class="read-more">
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <footer class="footer">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 footer-info">
-                            <h3>TECH WORLD</h3>
-                            <p>
-                                Tech world is based in India and provides web design and development services worldwide. We thrive digital representation of businesses through our intuitive, user-friendly, and modern website design and development services.  websites that meet your company's goals and make you 100% satisfied with our work.                            </p>
-                            </p>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>About Us</h4>
-                            <ul>
-                                <li><i class="ion-md-arrow-dropright"></i> <a href="#">Home</a></li>
-                                <li><i class="ion-md-arrow-dropright"></i> <a href="#">About us</a></li>
-                                <li><i class="ion-md-arrow-dropright"></i> <a href="#">Our services</a></li>
-                                <li><i class="ion-md-arrow-dropright"></i> <a href="#">Terms & condition</a></li>
-                                <li><i class="ion-md-arrow-dropright"></i> <a href="#">Privacy policy</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 footer-contact">
-                            <h4>Contact Us</h4>
-                            <p>
-                                SIDDHAPUDUR<br>
-                                COIMBATORE<br>
-                                INDIA <br>
-                                <strong>Phone:</strong> +123-999-4011<br>
-                                <strong>Email:</strong> techworld@gmail.com<br>
-                            </p>
-
-                            <div class="social-links">
-                                <a href=""><i class="ion-logo-twitter"></i></a>
-                                <a href=""><i class="ion-logo-facebook"></i></a>
-                                <a href=""><i class="ion-logo-linkedin"></i></a>
-                                <a href=""><i class="ion-logo-instagram"></i></a>
-                                <a href=""><i class="ion-logo-youtube"></i></a>
-                            </div>
-
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 footer-newsletter">
-                            <h4>Subscription</h4>
-            
-                            <form action="" method="post">
-                                <input type="email" name="email"><input type="submit"  value="Subscribe">
-                            </form>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="copyright">
-                    &copy; Copyright TECH World. All Rights Reserved<br>
+</head>
+<body>
+	<header id="header">
+		<nav>
+			<div class="logo"><h1>KNOWLEDGE-WORLD</h1></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+			 <li><a href="login.html">Login</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>Education is not the filling of a pail, but the lighting of a fire.</p>
+				<h5>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include teaching, training, storytelling, discussion and directed research!</h5>
 				
-                </div>
-            </div>
-        </footer>        
-        <a href="#" class="back-to-top"><i class="ion-md-arrow-dropup"></i></a>
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/jquery/jquery-migrate.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="vendor/easing/easing.min.js"></script>
-        <script src="vendor/superfish/hoverIntent.js"></script>
-        <script src="vendor/superfish/superfish.min.js"></script>
-        <script src="vendor/waypoints/waypoints.min.js"></script>
-        <script src="vendor/touchSwipe/jquery.touchSwipe.min.js"></script>
-        <script src="vendor/counterup/counterup.min.js"></script>
-        <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
-        <script src="vendor/isotope/isotope.pkgd.min.js"></script>
-        <script src="vendor/lightbox/js/lightbox.min.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+			</div>
+			<div class="svg-image">
+				<img src="edu.jpg" alt="svg">
+			</div>
+		</div>
+	</header>
+
+	<div class="title">
+		<span> Courses on Knowledge-world</span>
+	</div>
+	<br><br>
+	<div class="course">
+		
+		<div class="cbox">
+		<div class="det"><a href="java.html"><img src="java.png">JAVA</a></div>
+		<div class="det"><a href=""><img src="python.jpg">PYTHON</a></div>
+		<div class="det"><a href=""><img src="c++.png">C</a></div>
+		<div class="det det-last"><a href=""><img src="C.png">C++</a></div>
+		</div>
+		<center><div class="cbox">
+			<div class="det"><a href=""><img src="windows.png">Operating System</a></div>
+			<div class="det"><a href=""><img src="mysql.png">DBMS</a></div>
+			<div class="det"><a href=""><img src="network.png">Computer Networks</a></div>
+			<div class="det"><a href=""><img src="sys.jpg">System Design</a></div>
+			</div></center>
+	</div>
+<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">About</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="ere.jpeg">
+				</div>
+				<div class="side-text">
+					<h2>KNOWLEDGE-WORLD</h2>
+					<p>
+						Online learning platforms often use technology to facilitate learning, such as video lectures, interactive quizzes, and artificial intelligence-based learning tools. Many platforms also provide certificates or other credentials upon completion of a course, which can be useful for job applications or career advancement.
+
+						Some examples of popular online learning platforms include Coursera, Udemy, edX, and Skillshare. These platforms offer a variety of courses, ranging from free introductory courses to more advanced, paid courses with expert instructors.					</p></div>
+		</div>
+	</div>
+	<div class="diffSection" id="portfolio_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">INFO</p></center>
+		<div class="content">
+			<p>
+				“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”
+			</p>
+		</div>
+	</div>
+	<div class="extra">
+		<p>ENROLLMENTS</p>
+		<div class="smbox">
+		<span><center><div class="data">1154</div><div class="det">Enrolled Students</div></center></span>
+		<span><center><div class="data">8</div><div class="det">Total Courses</div></center></span><br>
+		<span><center><div class="data">965</div><div class="det">Course Completion</div></center></span>
+		<span><center><div class="data">27</div><div class="det">Total Awards</div></center></span>
+		</div>
+	</div>
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				
+				<div class="logo"></div>
+				<p class="rights-text">All Rights Reserved.</p>
+				<br><p><img src="location.png">Knowledge-world.Coimbatore, TN</p><br>
+				<p><img src="phone.png"> +91-1234-567-890<br><img src="mail.png">&nbsp; Knowledgeworld@gmail.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Our Newsletter</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="abc@gmail.com">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+</body>
 </html>
